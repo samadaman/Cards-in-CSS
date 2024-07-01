@@ -1,0 +1,19 @@
+.news1{
+    display: inline-block;
+    height: 500px;
+    width: 200px;
+    box-shadow: 2px 2px 5px 1px black;
+}
+.heading1{
+    text-align: center;
+}
+.para1{
+    margin: 4px;
+    text-align: justify;
+}
+.parent{
+display: block;
+height: 600px;
+width: 500px;
+    border: 2px solid red;
+}

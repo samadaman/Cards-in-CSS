@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Responsive</title>
+</head>
+<body>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: #252525;
+        }
+    nav{
+            background-color: chocolate;
+            color: #fff;
+            /* height: 45px; */
+            font-size: 25px;
+            display: flex;
+            justify-content: space-around;
+            padding:1%;
+        }
+        ul{
+            display: flex;
+            list-style: none;
+            gap: 10px;
+        }
+        button{
+            width: 120px;
+            border: none;
+            background-color: #fff;
+            color: black;
+            border-radius: 50px;
+            cursor: pointer;
+        }
+        .parent-box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+            gap: 35px;
+            overflow: auto;
+        }
+
+        @media (min-width: 100px) and (max-width: 768px){
+            ul{
+                display: none;
+            }
+            .parent-box{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+        
+    </style>
+    <div class="parent">
+        <nav>
+            <h1>Media </h1>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Gallery</li>
+                <li>Contact</li>
+            </ul>
+            <button>
+                Sign Up
+            </button>
+        </nav>
+        <div class="parent-box">
+            <div class="joker1">
+              <img src="joker.jpeg" alt="jockercard" />
+            </div>
+            <div class="joker2">
+              <img src="joker.jpeg" alt="jockercard" />
+            </div>
+            <div class="joker3">
+              <img src="joker.jpeg" alt="jockercard" />
+            </div>
+            <div class="joker4">
+              <img src="joker.jpeg" alt="jockercard" />
+            </div>
+          </div>
+    </div>
+</body>
+</html>

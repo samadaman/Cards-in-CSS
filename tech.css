@@ -1,0 +1,113 @@
+<style>
+        .box{
+            position: relative;
+            top: 40px;
+            left: 70px;
+            display: block;
+            background-color: white;
+            height: 500px;
+            width: 1200px;
+            border: solid black 1px;
+        }
+        .elon{
+            position: relative;
+            top: 25px;
+            left: 20px;
+            height: 450px;
+            width: 350px;
+            border: solid grey 1px;
+            box-shadow: 10px,10px,10px,10px black;
+        }
+        .tesla{
+            text-align: center;
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+        .micro{
+            text-align: center;
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+        .para{
+            position: relative;
+            padding: 5px;
+            text-align: center;
+           
+            font-size: small;
+            
+        }
+        .bill{
+            
+            position: relative;
+            bottom: 425px;
+            left: 425px;
+            height: 450px;
+            width: 350px;
+            border: solid grey 1px;
+        } 
+        .microsoft{
+            padding: 5px;
+            text-align: center;
+            font-size: small;
+        }
+        .sundar{
+            
+            position: relative;
+            bottom: 875px;
+            left: 820px;
+           height: 448px;
+            width: 350px;
+            border: solid grey 1px;
+        }
+        .google{
+            text-align: center;
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+        .pixel{
+            padding: 5px;
+            text-align: center;
+            font-size: small;
+        }
+        .space{
+            position: relative;
+            bottom: 15px;
+            left: 10px;
+            font-size: medium;
+        }
+        .gates{
+            position: relative;
+            bottom: 15px;
+            left: 10px;
+            font-size: medium;    
+            }
+        .pix{
+            position: relative;
+            bottom: 15px;
+            left: 10px;
+            font-size: medium; 
+        }
+.nav{
+    position: relative;
+    top: 10px;
+    background-color: rgba(243, 149, 73, 0.658);
+    
+}
+.nav a{
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 2px;
+    margin: 2px;
+    position: relative;
+    bottom: 7px;
+    font-family: 'Raleway', sans-serif;
+}
+.icon{
+    position: relative;
+    top: 6px;
+}
+.three{
+    position:relative;
+    right: 10px;
+    top: 2px;
+}
+
+    </style>
